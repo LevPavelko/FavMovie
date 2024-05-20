@@ -1,5 +1,3 @@
-const { string, number } = require("prop-types");
-
 class App extends React.Component {
     constructor(props) {
         super(props);
