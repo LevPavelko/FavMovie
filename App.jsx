@@ -8,7 +8,9 @@ class App extends React.Component {
                 title: string,
                 director: string,
                 year: number,
+                description: string,
                 poster: string
+
             }
         };
     }
@@ -21,7 +23,8 @@ class App extends React.Component {
                 <Movie 
                     title={this.state.movie.title} 
                     director={this.state.movie.director} 
-                    year={this.state.movie.year} 
+                    year={this.state.movie.year}
+                    description={this.movie.description} 
                   
                 />
             </div>
